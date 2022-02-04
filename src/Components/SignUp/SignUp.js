@@ -38,7 +38,7 @@ export default function SignUp() {
         if (responseData.success) {
           // Save the Auth Token in Local Storage and Redirect
           localStorage.setItem("auth-token", responseData.authtoken);
-          navigate("/");
+          navigate("/iNoteBook/");
         }
       } catch (error) {
         console.log(error);
