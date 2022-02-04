@@ -35,11 +35,11 @@ const Navbar =()=> {
           <i onClick={handleMenu} className="placeicon menu-icon fas fa-bars"></i>
           <ul>
             {localStorage.getItem("auth-token") &&
-            <li className='menu-option'><Link className={`${location.pathname==='/iNoteBook'?"active":""}`} to="/iNoteBook"><i className="placeicon fas fa-home"></i> Home</Link></li>
+            <li className='menu-option'><Link className={`${location.pathname==='/iNoteBook/'?"active":""}`} to="/iNoteBook"><i className="placeicon fas fa-home"></i> Home</Link></li>
             }
             {!localStorage.getItem("auth-token")?<>
-            <li className='menu-option'><Link className={`${location.pathname==='/login'?"active":""}`} to="/login"><i className="placeicon far fa-sign-in-alt"></i> Login</Link></li>
-            <li className='menu-option'><Link className={`${location.pathname==='/signup'?"active":""}`} to="/signup"><i className="placeicon far fa-user-plus"></i> Sign up</Link></li>
+            <li className='menu-option'><Link className={`${location.pathname==='/iNoteBook/login'?"active":""}`} to="/login"><i className="placeicon far fa-sign-in-alt"></i> Login</Link></li>
+            <li className='menu-option'><Link className={`${location.pathname==='/iNoteBook/signup'?"active":""}`} to="/signup"><i className="placeicon far fa-user-plus"></i> Sign up</Link></li>
             </> : 
               <li className='menu-option'><button className='logout-btn' onClick={handleLogout}><i className="placeicon far fa-sign-out-alt"></i> Logout</button></li>
             }
