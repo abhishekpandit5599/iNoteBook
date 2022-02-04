@@ -15,9 +15,9 @@ function App() {
 
         
           <Routes>
-          <Route exact path="/iNoteBook" element={<Home/>}/>
-          <Route exact path="/login" element={<Login/>}/>
-          <Route exact path="/signup" element={<SignUp/>}/>
+          <Route exact path="/iNoteBook/" element={<Home/>}/>
+          <Route exact path="/iNoteBook/login" element={<Login/>}/>
+          <Route exact path="/iNoteBook/signup" element={<SignUp/>}/>
                     
           </Routes>
         
