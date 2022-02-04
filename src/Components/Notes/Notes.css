@@ -1,0 +1,56 @@
+.notes-container{
+    padding: 20px;
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+.note-heading{
+    text-align: center;
+    margin: 10px auto;
+}
+
+
+.modal-heading{
+    text-align: center;
+}
+.modal-note-input-div{
+    position: absolute;
+    top: 70px;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 60%;
+    overflow: hidden;
+    padding: 40px 30px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-image: url('../Login/bg.jpg');
+    background-size: 100% 100%;
+}
+.modal-note-input-div input,.modal-note-input-div textarea{
+    width: 96%;
+    padding: 10px;
+    margin-top: 10px;
+    outline: none;
+    border: 2px solid #13b6b4;
+    border-radius: 20px;
+    background-color: transparent;
+}
+#pop-up{
+    display: none;
+}
+
+.cross-icon{
+    float: right;
+}
+
+@media screen and (max-width: 350px){
+    .notes-container{
+        padding: 10px;
+        width: 100%;
+    }
+    .modal-note-input-div{
+        width: 80%;
+    }
+}

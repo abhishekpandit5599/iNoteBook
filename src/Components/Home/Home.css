@@ -1,0 +1,60 @@
+.home-container{
+    overflow: hidden;
+    width: 90vw;
+    margin: 20px auto;
+    padding: 50px;
+}
+.note-input-div label,.note-input-div input{
+    display: block;
+}
+.title-div,.description-div{
+    margin: 20px 0px;
+}
+.note-input-div input,.note-input-div textarea{
+    width: 96%;
+    padding: 10px;
+    margin-top: 10px;
+    outline: none;
+    border: 2px solid #13b6b4;
+    border-radius: 20px;
+    background-color: transparent;
+}
+.note-input-div{
+    width: 80%;
+    overflow: hidden;
+    margin: 0px auto;
+    padding: 40px 30px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-image: url('../Login/bg.jpg');
+    background-size: 100% 100%;
+}
+.add-note-btn{
+    padding: 10px;
+    float: right;
+    margin-right: 15px;
+    background-color: #13b6b4;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media screen and (max-width: 714px){
+    .home-container{
+        width: 80vw;
+    }
+}
+
+@media screen and (max-width: 482px){
+    .home-container{
+        width: 98vw;
+        padding: 0px;
+    }
+}
+@media screen and (max-width: 320px){
+    .note-input-div{
+        padding: 40px 20px;
+    }
+}
+
