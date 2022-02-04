@@ -8,4 +8,3 @@ Home Page
 ![inotebook5](https://user-images.githubusercontent.com/91382711/152613075-3546c961-c34f-4d01-ba8c-0b78fa9c3e4e.png)
 
 
-![inotebook2](https://user-images.githubusercontent.com/91382711/152613101-f3d1e30f-f574-4572-8623-e937413fe5b1.png)
