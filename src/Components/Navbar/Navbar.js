@@ -23,7 +23,7 @@ const Navbar =()=> {
   // Handle Logout
   const handleLogout =()=>{
     localStorage.removeItem('auth-token');
-    navigate("/login");
+    navigate("/iNoteBook/login");
   }
 
 
