@@ -35,7 +35,7 @@ const Navbar =()=> {
           <i onClick={handleMenu} className="placeicon menu-icon fas fa-bars"></i>
           <ul>
             {localStorage.getItem("auth-token") &&
-            <li className='menu-option'><Link className={`${location.pathname==='/'?"active":""}`} to="/"><i className="placeicon fas fa-home"></i> Home</Link></li>
+            <li className='menu-option'><Link className={`${location.pathname==='/iNoteBook'?"active":""}`} to="/iNoteBook"><i className="placeicon fas fa-home"></i> Home</Link></li>
             }
             {!localStorage.getItem("auth-token")?<>
             <li className='menu-option'><Link className={`${location.pathname==='/login'?"active":""}`} to="/login"><i className="placeicon far fa-sign-in-alt"></i> Login</Link></li>
